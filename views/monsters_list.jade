@@ -1,0 +1,5 @@
+extends layout
+block content
+  for The_monster,i in monsters
+    li 
+      a(href="/monster/"+(i+1))= The_monster.name

@@ -1,0 +1,22 @@
+Depuis la console
+-----------------
+node --version	= verifie qu nodeJS fonctionne et renvoie la version.
+.exit 			= quitte la console
+CTRL + C		= stoppe le serveur web
+
+npm --version	= version de l'installateur de modules (nmpjs.org)
+npm install nom_du_module		= installation d'un module dans le projet
+npm install -g nom_du_module	= installation d'un module global (-g)
+
+nodemon monprog.js = lance le programme en tenant des modifications réalisées en temps réel.
+
+----------------------
+Modules utiles
+----------------------
+express
+Body-parser
+morgan
+ejs
+jade
+
+Information sur Jade : naltatis.github.io/jade-syntax-docs/
