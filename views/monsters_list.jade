@@ -1,5 +1,5 @@
 extends layout
 block content
-  for The_monster,i in monsters
+  for The_monster in monsters
     li 
-      a(href="/monster/"+(i+1))= The_monster.name
+      a(href="/monster/"+The_monster.id)= The_monster.name

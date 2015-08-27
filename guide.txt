@@ -17,6 +17,8 @@ express
 Body-parser
 morgan
 ejs
-jade
+jade        (Template)
+mongoose    (ORM de base de donnée)
+
 
 Information sur Jade : naltatis.github.io/jade-syntax-docs/
